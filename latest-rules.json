@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "updated": "2026-03-26",
+  "changelog": ["v1.0: 初始版本,包含6大hook公式"],
+  "hook_formulas": [
+    {"name": "反常识", "template": "所有人都告诉你XX,但其实YY", "effectiveness": "high"},
+    {"name": "数字冲击", "template": "XX%的人不知道YY", "effectiveness": "high"},
+    {"name": "直接提问", "template": "你有没有遇到过XX?", "effectiveness": "medium"},
+    {"name": "悬念", "template": "我发现了一个XX的方法,结果YY", "effectiveness": "high"},
+    {"name": "身份代入", "template": "如果你是XX,一定要看完", "effectiveness": "medium"},
+    {"name": "争议", "template": "XX和YY,你站哪边?", "effectiveness": "high"}
+  ],
+  "platform_rules": {
+    "douyin": {"max_duration": 60, "speaking_pace": "4-5 chars/sec", "hook_window": 3},
+    "bilibili": {"max_duration": 600, "speaking_pace": "3-4 chars/sec", "hook_window": 15},
+    "shipinhao": {"max_duration": 90, "speaking_pace": "3-4 chars/sec", "hook_window": 5}
+  },
+  "trending_topics": []
+}
